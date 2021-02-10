@@ -26,7 +26,7 @@ wget https://archive.stsci.edu/pub/hlsp/acsggct/ngc7089/hlsp_acsggct_hst_acs-wfc
 
 ```
 
-# Fit StarNet 
+# Fit StarNet (optional)
 
 StarNet can be fit by running 
 
@@ -39,7 +39,8 @@ On a single GPU, this takes 10-15 minutes.
 The StarNet fits will be saved into the `./fits/` folder. 
 
 The StarNet catalog and comparisons with PCAT, DAOPHOT, and the Hubble catalogs are printed in the jupyter notebook `./jupyter/m2_results.ipynb`. 
-(For convenience, pre-fitted networks are stored in the `fits` folder using git-lfs). 
+
+(For convenience, pre-fitted networks are stored in the `fits` folder. The notebook will run even without running `./train_wake_sleep.sh`). 
 
 
 # The DAOPHOT and PCAT catalogs
