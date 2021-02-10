@@ -7,3 +7,4 @@ __pycache__/*
 *m2_2583.phot
 *.zpt
 *starnet*
+*.npz
