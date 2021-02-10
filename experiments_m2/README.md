@@ -67,8 +67,8 @@ After installation of PCAT at that fork, run
 
 to obtain results on M2. 
 
-A pre-run MCMC chain saved at this Google Drive link: https://drive.google.com/file/d/1y6QxxiG6akgPDHVwoGpbf4TYIdMZgyBX/view?usp=sharing. 
-A script is available in the fits folder to download this chain: 
+A pre-run MCMC chain saved at this Google Drive [link](https://drive.google.com/file/d/1y6QxxiG6akgPDHVwoGpbf4TYIdMZgyBX/view?usp=sharing). 
+A `wget` script is available in the `./fits/` folder to download this chain: 
 ```
 # chage directory to the fits folder, 
 cd ./fits/
