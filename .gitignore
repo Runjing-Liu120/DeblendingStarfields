@@ -1,0 +1,9 @@
+*.ipynb_checkpoints
+__pycache__/*
+*.pyc
+*deleteme*
+*sync_results.sh
+*/hubble_data/N*
+*m2_2583.phot
+*.zpt
+*starnet*
