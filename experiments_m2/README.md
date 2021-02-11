@@ -26,7 +26,7 @@ wget https://archive.stsci.edu/pub/hlsp/acsggct/ngc7089/hlsp_acsggct_hst_acs-wfc
 
 ```
 
-# Fit StarNet 
+# Fit StarNet (optional)
 
 StarNet can be fit by running 
 
@@ -39,7 +39,8 @@ On a single GPU, this takes 10-15 minutes.
 The StarNet fits will be saved into the `./fits/` folder. 
 
 The StarNet catalog and comparisons with PCAT, DAOPHOT, and the Hubble catalogs are printed in the jupyter notebook `./jupyter/m2_results.ipynb`. 
-(For convenience, pre-fitted networks are stored in the `fits` folder using git-lfs). 
+
+(For convenience, pre-fitted networks are stored in the `fits` folder. The notebook will run even without running `./train_wake_sleep.sh`). 
 
 
 # The DAOPHOT and PCAT catalogs
@@ -67,4 +68,12 @@ After installation of PCAT at that fork, run
 
 to obtain results on M2. 
 
-A pre-run MCMC chain is saved in the `./fits/` folder as `my_chain_nsamp3000.npz`. (TODO: need to save this using git lfs)
+A pre-run MCMC chain saved at this Google Drive [link](https://drive.google.com/file/d/1y6QxxiG6akgPDHVwoGpbf4TYIdMZgyBX/view?usp=sharing). 
+A `wget` script is available in the `./fits/` folder to download this chain: 
+```
+# chage directory to the fits folder, 
+cd ./fits/
+
+# download pcat chain 
+./get_pcat_chain.sh
+```

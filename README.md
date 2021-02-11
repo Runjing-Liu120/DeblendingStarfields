@@ -77,6 +77,7 @@ In the `./experiments_m2/` directory, run
 
 to fit StarNet on the subimage of M2 described in the paper. 
 After fitting, the key results in our paper can be loaded in `./experiments_m2/jupyter/m2_results.ipynb`. 
+(For convenience, some fits are already pre-saved; the notebook will run even without training). 
 Example subimages from M2: 
 
 ![m2_ex](./figures/m2_results/example_subimages_ws.png)
